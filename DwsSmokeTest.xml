@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DBW Suite-1">
+  <test thread-count="5" name="SmokeTest">
+    <classes>
+      <class name="com.dbs.test.dbwBasePageTest"/>
+       <class name="com.dbs.test.dbwHomePageTest"/>
+        <class name="com.dbs.test.dbwLoginPageTest"/>
+       <class name="com.dbs.test.dbwOrderCreationTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

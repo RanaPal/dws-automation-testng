@@ -1,0 +1,6 @@
+com\qa\pages\LoginPage.class
+com\qa\pages\CheckoutPage.class
+com\qa\pages\SearchPage.class
+com\qa\pages\ShoppingCartPage.class
+com\qa\pages\HomePage.class
+webDemoApplication\WebDemoBase.class

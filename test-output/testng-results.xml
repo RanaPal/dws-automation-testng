@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="DBW Suite-1" duration-ms="13732" started-at="2020-10-11T06:25:55Z" finished-at="2020-10-11T06:26:09Z">
+    <groups>
+    </groups>
+    <test name="SmokeTest" duration-ms="13732" started-at="2020-10-11T06:25:55Z" finished-at="2020-10-11T06:26:09Z">
+      <class name="com.dbs.test.dbwLoginPageTest">
+        <test-method status="PASS" signature="setToLoginPage()[pri:2, instance:com.dbs.test.dbwLoginPageTest@f6c48ac]" name="setToLoginPage" duration-ms="500" started-at="2020-10-11T06:25:57Z" description="Navigate to Login Page" finished-at="2020-10-11T06:25:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setToLoginPage -->
+        <test-method status="PASS" signature="LoginPage()[pri:3, instance:com.dbs.test.dbwLoginPageTest@f6c48ac]" name="LoginPage" duration-ms="1885" started-at="2020-10-11T06:25:58Z" description="Access Login Page" finished-at="2020-10-11T06:26:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginPage -->
+      </class> <!-- com.dbs.test.dbwLoginPageTest -->
+      <class name="com.dbs.test.dbwOrderCreationTest">
+        <test-method status="PASS" signature="Process()[pri:4, instance:com.dbs.test.dbwOrderCreationTest@13deb50e]" name="Process" duration-ms="9300" started-at="2020-10-11T06:26:00Z" description="Create Order Process" finished-at="2020-10-11T06:26:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Process -->
+      </class> <!-- com.dbs.test.dbwOrderCreationTest -->
+      <class name="com.dbs.test.dbwBasePageTest">
+        <test-method status="PASS" signature="BeforeSuit()[pri:0, instance:com.dbs.test.dbwBasePageTest@6eebc39e]" name="BeforeSuit" is-config="true" duration-ms="6431" started-at="2020-10-11T06:25:49Z" finished-at="2020-10-11T06:25:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeSuit -->
+        <test-method status="PASS" signature="AfterSuit()[pri:0, instance:com.dbs.test.dbwBasePageTest@6eebc39e]" name="AfterSuit" is-config="true" duration-ms="746" started-at="2020-10-11T06:26:09Z" finished-at="2020-10-11T06:26:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterSuit -->
+      </class> <!-- com.dbs.test.dbwBasePageTest -->
+      <class name="com.dbs.test.dbwHomePageTest">
+        <test-method status="PASS" signature="Open_DWS_HomePage()[pri:1, instance:com.dbs.test.dbwHomePageTest@464bee09]" name="Open_DWS_HomePage" duration-ms="2016" started-at="2020-10-11T06:25:55Z" description="Open DWS_HomePage" finished-at="2020-10-11T06:25:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Open_DWS_HomePage -->
+      </class> <!-- com.dbs.test.dbwHomePageTest -->
+    </test> <!-- SmokeTest -->
+  </suite> <!-- DBW Suite-1 -->
+</testng-results>

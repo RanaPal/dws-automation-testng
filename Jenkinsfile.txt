@@ -1,0 +1,29 @@
+pipeline {
+    agent any
+    stages {
+        stage('Stage 1') {
+            steps {  
+            echo 'Clean the project Testng_DemeoWebShop'
+                bat 'mvn clean'
+            }
+        }
+        stage('Stage 2') {
+            steps {
+               echo 'Compile Testng_DemeoWebShop'
+                bat 'mvn compile'
+            }
+        }
+        stage('Stage 3') {
+            steps {
+                echo 'Compile Test Java Application'
+                bat 'mvn test-compile'
+            }
+        }
+        stage('Stage 4') {
+            steps {
+                echo 'Testing the Application'
+                bat 'mvn test'
+            }
+        }
+    }
+}
